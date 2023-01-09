@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <p>Hello World!</p>
-      <p>Context API / UseContextExample</p>
-      <ContextExample />
+      <div className="m-6 p-4 border-2 border-white">
+        <p className="font-bold text-blue-400 text-lg">Context API / UseContext Example</p>
+        <ContextExample />
+      </div>
     </div>
   )
 }
