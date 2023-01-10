@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ContextExample from './components/ContextExample'
+import ReducerExample from './components/ReducerExample'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
       <div className="m-6 p-4 border-2 border-white">
         <p className="font-bold text-blue-400 text-lg">Reducer Example</p>
-        <ContextExample />
+        <ReducerExample />
       </div>
 
     </div>
