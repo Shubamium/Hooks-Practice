@@ -19,7 +19,7 @@ const UseRefExample = () => {
             <button onClick={handleRef}  className="bg-rose-700 rounded-sm p-3 active:scale-95">Increment Count</button>
             <p>Count: {counter.current}</p>
 
-            <p>Modifying Dom Element:</p>
+            <p>Modifying Dom Element Directly:</p>
             <p ref={target}>Hewooo</p>
             <button onClick={handleTarget}  className="bg-rose-700 rounded-sm p-3 active:scale-95">Change Text</button>
 
