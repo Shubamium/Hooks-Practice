@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import ContextExample from './components/ContextExample'
 import ReducerExample from './components/ReducerExample'
+import UseRefExample from './components/UseRefExample'
 
 function App() {
 
@@ -16,6 +16,11 @@ function App() {
       <div className="m-6 p-4 border-2 border-white">
         <p className="font-bold text-blue-400 text-lg">Reducer Example</p>
         <ReducerExample />
+      </div>
+
+      <div className="m-6 p-4 border-2 border-white">
+        <p className="font-bold text-blue-400 text-lg">UseRef Example</p>
+        <UseRefExample />
       </div>
 
     </div>
